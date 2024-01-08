@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body
+{
+    background-color: #FEE2C5;
+}
+.header
+{
+    backdrop-filter: blur(2px);
+    background-color: rgba(3, 99, 255, 0.685);
+}
+.things
+{
+    font-weight: bolder;
+    padding: 20px;
+}
+.order:hover
+{
+    animation: filling 1s forwards;
+}
+@keyframes filling {
+    from
+    {
+        background-color: rgb(82, 139, 237);
+    }
+    to
+    {
+        background-color: white;
+        color: rgba(3, 99, 255, 0.685);
+    }
+}
+
