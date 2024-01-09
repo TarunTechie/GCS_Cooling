@@ -30,4 +30,9 @@ body
         color: rgba(3, 99, 255, 0.685);
     }
 }
-
+.pics
+{
+    z-index: -10;
+    position: absolute;
+    overflow: hidden;
+}
