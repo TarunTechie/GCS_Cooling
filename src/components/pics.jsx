@@ -1,9 +1,7 @@
-import { HiMiniArrowSmallRight } from "react-icons/hi2"
-import { HiOutlineArrowSmLeft } from "react-icons/hi"
 import { useEffect, useState } from "react"
 export default function Pics()
 {
-    let slides=["src/assets/test.jpg","src/assets/test.jpg","src/assets/test.jpg","src/assets/Room-AC.jpg"]
+    let slides=["src/assets/test.jpg","src/assets/test.jpg","src/assets/test.jpg","src/assets/test.jpg"]
     let [slide,currentSlide]=useState(0)
     useEffect(()=>{
         const interval=setInterval(() => {
@@ -23,14 +21,14 @@ export default function Pics()
             {
                 currentSlide(0)
             }
-        }, 2000);
+        }, 5000);
         return()=>clearInterval(interval);
     },[slide])
     return(
         <div className="pics">
         <div className='flex transition ease-out duration-700 movePics' style={{transform:`translateX(-${slide*100}%)`}}>
             {slides.map((s)=>{
-                return <img src={s}/>
+                return <img src={s} loading="lazy"/>
             })}
         </div>
         </div>

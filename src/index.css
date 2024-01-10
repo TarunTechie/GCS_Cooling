@@ -3,7 +3,7 @@
 @tailwind utilities;
 body
 {
-    background-color: #FEE2C5;
+    background-color: #d6d6d6;
 }
 .header
 {
@@ -17,7 +17,7 @@ body
 }
 .order:hover
 {
-    animation: filling 1s forwards;
+    animation: filling 0.5s forwards;
 }
 @keyframes filling {
     from
@@ -35,4 +35,23 @@ body
     z-index: -10;
     position: absolute;
     overflow: hidden;
+    width: 100%;
+}
+.products
+{
+    display: flex;
+    place-content: center;
+}
+@media all and (max-width:500px) {
+    .products
+    {
+        display: block;
+        place-content: center;
+        align-items: center;
+    }
+    .headerdiv
+    {
+        display: none;
+        z-index: 1;
+    }
 }
