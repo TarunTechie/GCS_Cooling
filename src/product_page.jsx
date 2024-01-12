@@ -1,5 +1,6 @@
 import Pcard from "./components/pcard";
 import PTop from "./components/ptop";
+import Bottom from "./components/bottom";
 export default function Product_page()
 {
     return(
@@ -97,6 +98,7 @@ export default function Product_page()
                 />
             </div>     
             </div>
+    <div className='p-20 mt-4 bg-blue-500' id='foo'><Bottom/></div>       
         </div>
     )
 }

@@ -9,15 +9,15 @@ export default function Project()
             <h1>PREVIOUS PROJECTS</h1>
             <div>
                 <h1 className="text-base underline">COMPANIES</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{com.map((c)=>{return <img src={c} className="h-20 p-2 projimg"/>})}</div>
+                <div className="flex justify-center pt-4 pb-4 proj">{com.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
             <div>
                 <h1 className="text-base underline">HOMES</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{hom.map((c)=>{return <img src={c} className="h-20 p-2 projimg"/>})}</div>
+                <div className="flex justify-center pt-4 pb-4 proj">{hom.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
             <div>
                 <h1 className="text-base underline">HOSPITALS</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{hos.map((c)=>{return <img src={c} className="h-20 p-2 projimg"/>})}</div>
+                <div className="flex justify-center pt-4 pb-4 proj">{hos.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
             <div>
                 <h1 className="text-base underline">HOTELS</h1>

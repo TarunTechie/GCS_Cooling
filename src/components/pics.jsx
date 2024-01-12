@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 export default function Pics()
 {
-    let slides=["src/assets/about.jpg","src/assets/about.jpg","src/assets/about.jpg","src/assets/about.jpg"]
+    let slides=["src/assets/top/ac.png","src/assets/top/water.png","src/assets/top/solar.png","src/assets/top/ups.png"]
     let [slide,currentSlide]=useState(0)
     useEffect(()=>{
         const interval=setInterval(() => {

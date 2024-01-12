@@ -82,6 +82,14 @@ body
         padding-bottom:0%;
         max-height: 80px;
     }
+    .pics
+    {
+        z-index: -10;
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 8rem;
+    }
 }
 ::-webkit-scrollbar {
     display: none;
@@ -108,4 +116,8 @@ body
 {
     font-family: 'Alfa Slab One', serif;
     font-size: xx-large;
+}
+.pcard:hover
+{
+    transform: translatey(-10px);
 }
