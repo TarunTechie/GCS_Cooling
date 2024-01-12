@@ -1,9 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html
+{
+    height: -webkit-fill-available;
+}
 body
 {
-    background-color: #ffffff;
+    background-color: #bad3f7;
+    height: -webkit-fill-available;
 }
 .header
 {
@@ -54,4 +59,53 @@ body
         display: none;
         z-index: 1;
     }
+    .tohide
+    {
+        display: none;
+    }
+    .aboutus
+    {
+        margin:0;
+        padding: 0;
+    }
+    .proj
+    {
+        display: grid;
+        grid-template-columns: 80px 80px;
+        place-content: center;
+        align-items: center;
+        padding: none;
+        margin:auto;
+    }
+    .projimg
+    {
+        padding-bottom:0%;
+        max-height: 80px;
+    }
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.about
+{
+    background-image:url("src/assets/about.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.aboutus
+{
+    background-image:linear-gradient(to right,rgb(69, 192, 249),rgba(255, 255, 255, 0.549)) ;
+    margin-right: 30%;
+    padding-top:10% ;
+    height: 100vh;
+}
+.images
+{
+    width: 100bh;
+    height: 100vh;
+}
+.heading
+{
+    font-family: 'Alfa Slab One', serif;
+    font-size: xx-large;
 }
