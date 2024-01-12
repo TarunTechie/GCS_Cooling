@@ -3,7 +3,7 @@ export default function Top()
 {
     return(<div className="fixed">
         <div className="flex bg-white w-screen">
-        <AnchorLink href="#hom"><img src="src\assets\logo.png" alt="GCS-COOLING" className="max-w-20 max-h-20" /></AnchorLink>
+        <AnchorLink href="/"><img src="src\assets\logo.png" alt="GCS-COOLING" className="max-w-20 max-h-20" /></AnchorLink>
         <div className="text-2xl text-center font-bold text-white bg-blue-500 rounded-full p-4 mb-2 mt-2 ml-4">GANGA COOLING SOLUTIONS</div>
         </div>
         <div className="flex flex-row bg-blue-500 place-content-around gap-20 fixed w-screen header">

@@ -15,8 +15,8 @@ function App() {
     <div id="abt"><About/></div>
     <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-0' id="prod"><Products/></div>
     <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-0' id='fac'><Facility/></div>
-    <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-0' id='fac'><Project/></div>
-    <div className='p-20 bg-blue-500' id='foo'><Bottom/></div>
+    <div className='md:h-screen grid pt-44 place-content-center sm:h-auto pt-0' id='pro'><Project/></div>
+    <div className='p-20 mt-4 bg-blue-500' id='foo'><Bottom/></div>
     </>)
 }
 
