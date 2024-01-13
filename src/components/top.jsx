@@ -10,7 +10,7 @@ export default function Top()
         <img src="src\assets\icons\menu.svg" className="md:hidden sm:visible" onClick={reveal}></img>
         <div className="flex flex-row items-center gap-20 text-white headerdiv" id="headerdiv">
         <AnchorLink href="#hom"><h1 className="things hover:bg-blue-800" onClick={close}>HOME</h1></AnchorLink>
-        <AnchorLink href="#abt"><h1 className="things hover:bg-blue-800" onClick={close}>ABOUT US</h1></AnchorLink>
+        <AnchorLink href="#abt"><h1 className="things tohide hover:bg-blue-800" onClick={close}>ABOUT US</h1></AnchorLink>
         <AnchorLink href="#prod"><h1 className="things hover:bg-blue-800" onClick={close}>PRODUCTS</h1></AnchorLink>
         <AnchorLink href="#fac"><h1 className="things hover:bg-blue-800" onClick={close}>SERVICES</h1></AnchorLink>
         <AnchorLink href="#pro"><h1 className="things hover:bg-blue-800" onClick={close}>PROJECTS</h1></AnchorLink>

@@ -17,9 +17,9 @@ export default function Bottom()
                 <a href="https://www.instagram.com/gcs_1988?igsh=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr" target="blank">
                     <span className="flex flex-row pb-5"><img src="src/assets/icons/instagram.svg" alt="MAIL-ID" className="pr-3 w-10 h-10" /></span></a> 
                 <a href="https://www.instagram.com/gcs_1988?igsh=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr" target="blank">
-                    <span className="flex flex-row pb-5"><img src="src/assets/icons/instagram.svg" alt="MAIL-ID" className="pr-3 w-10 h-10" /></span></a>          
+                    <span className="flex flex-row pb-5"><img src="src/assets/icons/youtube.svg" alt="MAIL-ID" className="pr-3 w-12 h-10" /></span></a>          
                 <a href="https://www.instagram.com/gcs_1988?igsh=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr" target="blank">
-                    <span className="flex flex-row pb-5"><img src="src/assets/icons/instagram.svg" alt="MAIL-ID" className="pr-3 w-10 h-10" /></span></a>      
+                    <span className="flex flex-row pb-5"><img src="src/assets/icons/twitter.svg" alt="MAIL-ID" className="pr-3 w-10 h-10" /></span></a>      
                 </div>                       
             </div>
 

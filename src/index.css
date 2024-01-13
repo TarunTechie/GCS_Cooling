@@ -58,6 +58,7 @@ body
     {
         display: none;
         z-index: 1;
+        margin-left: 20%;
     }
     .tohide
     {
@@ -85,26 +86,21 @@ body
     .pics
     {
         z-index: -10;
-        position: absolute;
+        position: relative;
         overflow: hidden;
         width: 100%;
         padding-top: 8rem;
     }
     .aboutus
     {
+        z-index: -10;
         background-image:linear-gradient(to right,rgb(69, 192, 249),rgba(255, 255, 255, 0.549));
-        margin-right: 30%;
-        padding-top:10% ;
-        height: auto;
-        overflow: hidden;
-        width: 100%;
+        overflow: scroll;
     }
     .about
     {
-        margin-top:auto;
-        background-image:url("src/assets/about.jpg");
-        background-size:cover;
-        background-repeat:no-repeat;
+        background-size:100vh;
+        background-repeat: repeat;
     }
 }
 ::-webkit-scrollbar {
@@ -114,7 +110,7 @@ body
 {
     background-image:url("src/assets/about.jpg");
     background-size:100%;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
 }
 .aboutus
 {
