@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 export default function Pics()
 {
-    let slides=["src/assets/top/ac.png","src/assets/top/water.png","src/assets/top/solar.png","src/assets/top/ups.png"]
+    let slides=["src/assets/top/ac.png","src/assets/top/water.png","src/assets/top/wss.png","src/assets/top/solar.png","src/assets/top/wtt.png","src/assets/top/ups.png"]
     let [slide,currentSlide]=useState(0)
     useEffect(()=>{
         const interval=setInterval(() => {
@@ -19,9 +19,17 @@ export default function Pics()
             }
             else if(slide==3)
             {
+                currentSlide(4)
+            }
+            else if(slide==4)
+            {
+                currentSlide(5)
+            }
+            else if(slide==5)
+            {
                 currentSlide(0)
             }
-        }, 5000);
+        }, 2000);
         return()=>clearInterval(interval);
     },[slide])
     return(

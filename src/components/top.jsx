@@ -14,6 +14,7 @@ export default function Top()
         <AnchorLink href="#prod"><h1 className="things hover:bg-blue-800" onClick={close}>PRODUCTS</h1></AnchorLink>
         <AnchorLink href="#fac"><h1 className="things hover:bg-blue-800" onClick={close}>SERVICES</h1></AnchorLink>
         <AnchorLink href="#pro"><h1 className="things hover:bg-blue-800" onClick={close}>PROJECTS</h1></AnchorLink>
+        <a href="gal"><h1 className="things hover:bg-blue-800" onClick={close}>GALLERY</h1></a>
         <AnchorLink href="#foo"><h1 className="things hover:bg-blue-800" onClick={close}>CONTACT US</h1></AnchorLink>
         </div>
         <a href="https://forms.gle/pFJs1hXYYqZuxoWd7" target="blank">

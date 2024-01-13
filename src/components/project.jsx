@@ -5,23 +5,23 @@ export default function Project()
     let hos=["src/assets/projects/hospitals/1.png","src/assets/projects/hospitals/2.png"]
     let hot=["src/assets/projects/hotels/1.png","src/assets/projects/hotels/2.png","src/assets/projects/hotels/3.png","src/assets/projects/hotels/4.png"]
     return(
-        <div className="text-center heading">
-            <h1>PREVIOUS PROJECTS</h1>
+        <div className="text-center">
+            <h1 className="heading">PREVIOUS PROJECTS</h1>
             <div>
-                <h1 className="text-base underline">COMPANIES</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{com.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
+                <h1 className="text-base text-xl font-bold underline">COMPANIES</h1>
+                <div className="flex justify-center pt-4 proj">{com.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
             <div>
-                <h1 className="text-base underline">HOMES</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{hom.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
+                <h1 className="text-base text-xl font-bold underline">HOMES</h1>
+                <div className="flex justify-center pt-4 proj">{hom.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
             <div>
-                <h1 className="text-base underline">HOSPITALS</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{hos.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
+                <h1 className="text-base text-xl font-bold underline">HOTELS</h1>
+                <div className="flex justify-center pt-4 proj">{hot.map((c)=>{return <img src={c} className="h-20 p-2 projimg"/>})}</div>
             </div>
             <div>
-                <h1 className="text-base underline">HOTELS</h1>
-                <div className="flex justify-center pt-4 pb-4 proj">{hot.map((c)=>{return <img src={c} className="h-20 p-2 projimg"/>})}</div>
+                <h1 className="text-base text-xl font-bold underline">HOSPITALS</h1>
+                <div className="flex justify-center pt-4 proj">{hos.map((c)=>{return <img src={c} className="h-20 p-2 aspect-auto object-contain projimg"/>})}</div>
             </div>
         </div>
     )

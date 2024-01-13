@@ -102,6 +102,11 @@ body
         background-size:100vh;
         background-repeat: repeat;
     }
+    .gala
+    {
+        display: block;
+        columns: 2;
+    }
 }
 ::-webkit-scrollbar {
     display: none;
@@ -127,9 +132,22 @@ body
 .heading
 {
     font-family: 'Alfa Slab One', serif;
-    font-size: xx-large;
+    font-size: x-large;
 }
 .pcard:hover
 {
     transform: translatey(-10px);
+}
+.gala
+{
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+    justify-content: center;
+}
+.galaimg
+{
+    width: 50vb;
+    height: 50vh;
+    padding: 10%;
 }

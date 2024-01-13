@@ -10,9 +10,10 @@ export default function PTop()
         <div className="flex flex-row bg-blue-500 place-content-around gap-20 fixed w-screen header">
         <img src="src\assets\icons\menu.svg" className="md:hidden sm:visible" onClick={reveal}></img>
         <div className="flex flex-row items-center gap-20 text-white headerdiv" id="headerdiv">
+        <a href="/"><h1 className="things hover:bg-blue-800" onClick={close}>HOME</h1></a>
         <AnchorLink href="#ac"><h1 className="things hover:bg-blue-800" onClick={close}>AIR CONDITIONER</h1></AnchorLink>
         <AnchorLink href="#wp"><h1 className="things hover:bg-blue-800" onClick={close}>WATER PURIFIER</h1></AnchorLink>
-        <AnchorLink href="#shp"><h1 className="things hover:bg-blue-800" onClick={close}>SOLAR HEAT PUMPS</h1></AnchorLink>
+        <AnchorLink href="#shp"><h1 className="things hover:bg-blue-800" onClick={close}>SOLAR & HEAT PUMPS</h1></AnchorLink>
         <AnchorLink href="#ups"><h1 className="things hover:bg-blue-800" onClick={close}>UPS</h1></AnchorLink>
         <AnchorLink href="#foo"><h1 className="things hover:bg-blue-800" onClick={close}>CONTACT US</h1></AnchorLink>
         </div>
