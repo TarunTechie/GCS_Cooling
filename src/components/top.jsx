@@ -24,11 +24,11 @@ export default function Top()
 function reveal()
 {
     let d=document.getElementById("headerdiv")
-    console.log(d.style.display)
     if(d.style.display=="none")
     {d.style.display="grid"
+    d.style.gridTemplateColumns="50px 50px"
     d.style.marginRight="50%"
-    d.style.height="auto"
+    d.style.height="100%"
 }
     else
     {

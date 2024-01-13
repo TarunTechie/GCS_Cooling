@@ -3,7 +3,7 @@ export default function About()
     return(
         <div className="about">
             <div className="italic font-bold text-xl text-slate-800 aboutus">
-                <h1 className="pb-4  text-center font-serif text-3xl text-blue-900">ABOUT US</h1>
+                <h1 className="pb-4  text-center font-serif text-5xl text-blue-900 shadow-xl">ABOUT US</h1>
             <p>
             "Ganga Cooling Solutions, located in Bangalore, Karnataka, India, is a trusted provider of a diverse range of cooling and power solutions. Our product line includes air conditioners, water purifiers, solar water heaters, and uninterruptible power supplies. 
 

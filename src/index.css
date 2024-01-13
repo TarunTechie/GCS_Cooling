@@ -90,6 +90,22 @@ body
         width: 100%;
         padding-top: 8rem;
     }
+    .aboutus
+    {
+        background-image:linear-gradient(to right,rgb(69, 192, 249),rgba(255, 255, 255, 0.549));
+        margin-right: 30%;
+        padding-top:10% ;
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .about
+    {
+        margin-top:auto;
+        background-image:url("src/assets/about.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
 }
 ::-webkit-scrollbar {
     display: none;

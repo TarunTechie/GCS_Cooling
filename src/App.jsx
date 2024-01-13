@@ -11,10 +11,10 @@ function App() {
   return (
     <>
     <Top/>
-    <div className='md:h-screen sm:h-full' id='hom'><Pics/></div>
+    <a href='productpage'><div className='md:h-screen sm:h-full' id='hom'><Pics/></div></a>
     <div className='md:h-screen sm:h-auto' id="abt"><About/></div>
-    <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-0' id="prod"><Products/></div>
-    <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-0' id='fac'><Facility/></div>
+    <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-52' id="prod"><Products/></div>
+    <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-52' id='fac'><Facility/></div>
     <div className='md:h-screen grid pt-44 place-content-center sm:h-auto pt-0' id='pro'><Project/></div>
     <div className='p-20 mt-4 bg-blue-500' id='foo'><Bottom/></div>
     </>)
