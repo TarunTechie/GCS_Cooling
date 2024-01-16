@@ -1,9 +1,9 @@
 export default function Project()
 {
-    let com=["src/assets/projects/companies/1.png","src/assets/projects/companies/2.png","src/assets/projects/companies/3.png","src/assets/projects/companies/4.png","src/assets/projects/companies/5.png","src/assets/projects/companies/6.png"]
-    let hom=["src/assets/projects/homes/1.png","src/assets/projects/homes/2.png","src/assets/projects/homes/3.png","src/assets/projects/homes/4.png","src/assets/projects/homes/5.png","src/assets/projects/homes/6.png"]
-    let hos=["src/assets/projects/hospitals/1.png","src/assets/projects/hospitals/2.png"]
-    let hot=["src/assets/projects/hotels/1.png","src/assets/projects/hotels/2.png","src/assets/projects/hotels/3.png","src/assets/projects/hotels/4.png"]
+    let com=["assets/projects/companies/1.png","assets/projects/companies/2.png","assets/projects/companies/3.png","assets/projects/companies/4.png","assets/projects/companies/5.png","assets/projects/companies/6.png"]
+    let hom=["assets/projects/homes/1.png","assets/projects/homes/2.png","assets/projects/homes/3.png","assets/projects/homes/4.png","assets/projects/homes/5.png","assets/projects/homes/6.png"]
+    let hos=["assets/projects/hospitals/1.png","assets/projects/hospitals/2.png"]
+    let hot=["assets/projects/hotels/1.png","assets/projects/hotels/2.png","assets/projects/hotels/3.png","assets/projects/hotels/4.png"]
     return(
         <div className="text-center">
             <h1 className="heading">PREVIOUS PROJECTS</h1>

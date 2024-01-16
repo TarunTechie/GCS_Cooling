@@ -113,7 +113,7 @@ body
 }
 .about
 {
-    background-image:url("src/assets/about.jpg");
+    background-image:url("/assets/about.jpg");
     background-size:100%;
     background-repeat:repeat;
 }

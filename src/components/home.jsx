@@ -7,12 +7,19 @@ import Pics from './components/pics'
 import Facility from './components/facility'
 import About from './components/about'
 import Project from './components/project'
-import { Link } from 'react-router-dom'
-function App() {
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Product_page from "./pages/product_page";
+import Gall from "./pages/gal";
+import * as React from "react";
+function Home() {
   return (
     <>
     <Top/>
-    <Link to='/productpage'><div className='md:h-screen sm:h-full' id='hom'><Pics/></div></Link>
+    <a href='productpage'><div className='md:h-screen sm:h-full' id='hom'><Pics/></div></a>
     <div className='md:h-screen sm:h-auto' id="abt"><About/></div>
     <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-52' id="prod"><Products/></div>
     <div className='md:h-screen grid pt-20 place-content-center sm:h-auto pt-52' id='fac'><Facility/></div>
@@ -21,4 +28,4 @@ function App() {
     </>)
 }
 
-export default App
+export default Home
