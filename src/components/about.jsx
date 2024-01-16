@@ -3,7 +3,7 @@ export default function About()
     return(
         <div className="about">
             <div className="text-base md:italic font-bold text-xl text-slate-800 aboutus">
-                <h1 className=" text-2xl md:pb-4  text-center font-serif text-5xl font-bold text-blue-700">ABOUT US</h1>
+                <h1 className="pb-4  text-center font-serif text-3xl/8 font-bold text-blue-700 md:pb-4  text-center font-serif text-5xl font-bold text-blue-700">ABOUT US</h1>
             <p className="text-wrap text-blue-900 pl-2">
             "Ganga Cooling Solutions established in 2023,previously named Aqua Water Solution in 2012, located in Bangalore, Karnataka, India, is a trusted provider of a diverse range of cooling and power solutions. Our product line includes air conditioners, water purifiers, solar water heaters, and uninterruptible power supplies. 
 

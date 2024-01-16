@@ -1,10 +1,12 @@
 import Procard from "./components/procard"
 import PTop from "./components/ptop";
 import Bottom from "./components/bottom";
+import { ScrollRestoration } from "react-router-dom";
 export default function Product_page()
 {
     return(
         <div>
+            <ScrollRestoration />
             <PTop/>
             <div className="pt-40" id="ac">
                 <h1 className="text-center heading">AIR CONDITIONER</h1>

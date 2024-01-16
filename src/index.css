@@ -89,13 +89,14 @@ body
         position: relative;
         overflow: hidden;
         width: 100%;
-        padding-top: 8rem;
+        padding-top: 2rem;
     }
     .aboutus
     {
         z-index: -10;
         background-image:linear-gradient(to right,rgb(69, 192, 249),rgba(255, 255, 255, 0.549));
         overflow: scroll;
+        font-size: small;
     }
     .about
     {
@@ -106,6 +107,16 @@ body
     {
         display: block;
         columns: 2;
+    }
+    .order
+    {
+        background-color: white;
+        border-style: none;
+        color: rgb(82, 139, 237);
+        padding-left: 2px;
+        padding-right: 2px;
+        margin-top:20px;
+        font-weight: 500;
     }
 }
 ::-webkit-scrollbar {
@@ -150,4 +161,8 @@ body
     width: 50vb;
     height: 50vh;
     padding: 10%;
+}
+.chide
+{
+    display:none;
 }

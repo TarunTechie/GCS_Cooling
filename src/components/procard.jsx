@@ -1,4 +1,3 @@
-import { Fade } from "react-awesome-reveal"
 function Procard({image,heading,content})
 {
     return(
