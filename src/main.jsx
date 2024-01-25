@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import App from "./App";
 import Product_page from "./product_page";
 import Gall from "./gal";
+import Product_photos from "./product_photos";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path:"/gal",
     element:<Gall/>,
+  },
+  {
+    path:'/pimg',
+    element:<Product_photos/>
   }
 ]);
 
